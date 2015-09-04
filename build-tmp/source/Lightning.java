@@ -52,7 +52,7 @@ public void mousePressed()
 	y = 0;
 
 	redraw();
-	background(30);
+	
 }
   static public void main(String[] passedArgs) {
     String[] appletArgs = new String[] { "Lightning" };

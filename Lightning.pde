@@ -36,5 +36,5 @@ void mousePressed()
 	y = 0;
 
 	redraw();
-	background(30);
+	
 }
