@@ -19,11 +19,13 @@ int y = 0;
 public void setup()
 {
     size(400,400);
+    frameRate(10);
+
 }
 
 public void draw()
 {
-	frameRate(30);
+	
 	background(0);
 	
 	
@@ -50,8 +52,8 @@ public void draw()
 public void mousePressed()
 {
 	y = 0;
+	background(50);
 
-	redraw();
 	
 }
   static public void main(String[] passedArgs) {

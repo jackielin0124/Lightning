@@ -3,11 +3,13 @@ int y = 0;
 void setup()
 {
     size(400,400);
+    frameRate(10);
+
 }
 
 void draw()
 {
-	frameRate(30);
+	
 	background(0);
 	
 	
@@ -34,7 +36,7 @@ void draw()
 void mousePressed()
 {
 	y = 0;
+	background(50);
 
-	redraw();
 	
 }
